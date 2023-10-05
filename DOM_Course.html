@@ -8,17 +8,21 @@
 	<body>
 		<div id="first-div">
 	<h1>Programming Languages</h1> <!--title-->
+	<p>These are some programming languages</p>
 	 
-            <ul>
+            <ul class="Languages">
                 <li>javascript</li>
+				<p>We can create interactive websites with it</p>
                 <li>Koltin</li>
+				<p>We can develop android apps with it</p>
                 <li>Swift</li>
+				<p>we can develp IOS apps with it</p>
             </ul>
 		</div>
 		<script>
 
-		let list = document.getElementsByTagName("li")
-		console.log(list[1])
+	let text = document.querySelectorAll('.Languages p')
+	console.log(text[1])
 
 		</script>
 	</body>
