@@ -6,18 +6,21 @@
 	</title>
 	</head>
 	<body>
-		<div id="first-div">
+		<div>
 	<h1>Programming Languages</h1> <!--title-->
 	 
-            <ul>
-                <li id="first-li">javascript</li>
-                <li id="second-li">Koltin</li>
-                <li id="third-li">Swift</li>
+            <ul class="list">
+                <li>javascript</li>
+                <li>Koltin</li>
+                <li>Swift</li>
             </ul>
 		</div>
 		<script>
-			let android = document.querySelector('#second-li')
-			android.innerText = "Java"
+let languagelist = document.querySelector(".list")
+let Ruby = document.createElement("li")
+Ruby.innerText= "Ruby"
+languagelist.append(Ruby)
+ console.log(languagelist)
 		</script>
 	</body>
        
