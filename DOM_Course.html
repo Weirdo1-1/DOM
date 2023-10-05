@@ -6,22 +6,18 @@
 	</title>
 	</head>
 	<body>
-		<div>
-	<h1>Programming Languages</h1> <!--title-->
-	 
-            <ul class="list">
-                <li>javascript</li>
-                <li>Koltin</li>
-                <li>Swift</li>
-            </ul>
-		</div>
-		<script>
-let languagelist = document.querySelector(".list")
-let Ruby = document.createElement("li")
-Ruby.innerText= "Ruby"
-languagelist.append(Ruby)
- console.log(languagelist)
-		</script>
+	<h3>Clicks: <span id="clicks">0</span></h3>
+	<button type="button" onclick="add()">+</button>
+
+	<script>
+		let clicks = 0;	
+		function add() {
+
+			clicks++;
+			document.getElementById("clicks").innerText = Clicks
+			 
+		};
+	</script>
 	</body>
        
 	
